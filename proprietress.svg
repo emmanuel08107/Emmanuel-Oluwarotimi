@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8d5524"/>
+      <stop offset="100%" stop-color="#603813"/>
+    </linearGradient>
+    <linearGradient id="attireGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e40af"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="600" height="700" fill="url(#bgGrad)"/>
+  <circle cx="300" cy="280" r="180" fill="#fbbf24" opacity="0.1"/>
+  <circle cx="300" cy="280" r="150" fill="#fbbf24" opacity="0.15"/>
+  
+  <!-- Shoulders / Attire (Elegant Traditional & Blazer) -->
+  <path d="M120 700 C130 520 200 440 300 440 C400 440 470 520 480 700 Z" fill="url(#attireGrad)"/>
+  <!-- Gold Scarf / Embroidery Lapel -->
+  <path d="M250 440 L300 580 L350 440 L390 490 L300 660 L210 490 Z" fill="url(#goldGrad)"/>
+  <!-- Pearl / Gold Necklace -->
+  <ellipse cx="300" cy="440" rx="55" ry="30" fill="none" stroke="#fde047" stroke-width="6"/>
+  <circle cx="300" cy="470" r="8" fill="#fde047"/>
+  
+  <!-- Neck -->
+  <rect x="265" y="340" width="70" height="110" fill="url(#skinGrad)" rx="8"/>
+  
+  <!-- Head & Face -->
+  <ellipse cx="300" cy="290" rx="90" ry="110" fill="url(#skinGrad)"/>
+  
+  <!-- Elegant Gele / Headwrap -->
+  <path d="M180 260 C160 170 200 100 300 90 C400 100 440 170 420 260 C460 210 480 140 430 80 C370 20 230 20 170 80 C120 140 140 210 180 260 Z" fill="url(#goldGrad)"/>
+  <!-- Gele folds & embellishments -->
+  <path d="M190 120 Q300 70 410 120" stroke="#fef08a" stroke-width="4" fill="none"/>
+  <path d="M170 160 Q300 100 430 160" stroke="#fef08a" stroke-width="4" fill="none"/>
+  <path d="M200 200 Q300 150 400 200" stroke="#fef08a" stroke-width="3" fill="none"/>
+  
+  <!-- Facial Features -->
+  <!-- Eyebrows -->
+  <path d="M240 250 Q265 240 285 250" stroke="#1c1917" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M315 250 Q335 240 360 250" stroke="#1c1917" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <ellipse cx="260" cy="265" rx="14" ry="8" fill="#ffffff"/>
+  <circle cx="260" cy="265" r="6" fill="#1c1917"/>
+  <ellipse cx="340" cy="265" rx="14" ry="8" fill="#ffffff"/>
+  <circle cx="340" cy="265" r="6" fill="#1c1917"/>
+  <!-- Nose -->
+  <path d="M295 265 L292 305 Q300 312 308 305 Z" fill="#603813"/>
+  <!-- Warm Smile -->
+  <path d="M270 335 Q300 360 330 335" stroke="#be123c" stroke-width="5" fill="#ffffff" stroke-linecap="round"/>
+  <!-- Gold Earrings -->
+  <circle cx="205" cy="305" r="10" fill="#fde047"/>
+  <circle cx="395" cy="305" r="10" fill="#fde047"/>
+  
+  <!-- Frame & Badge -->
+  <rect x="50" y="600" width="500" height="75" rx="12" fill="#0a192f" stroke="#f59e0b" stroke-width="2"/>
+  <text x="300" y="632" fill="#ffffff" font-family="'Playfair Display', Georgia, serif" font-weight="700" font-size="18" text-anchor="middle">Dr. (Mrs.) Folashade Adebayo, F.IoD</text>
+  <text x="300" y="656" fill="#fbbf24" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="600" font-size="12" text-anchor="middle" letter-spacing="1.5">PROPRIETRESS &amp; FOUNDER • 20+ YRS OF EXCELLENCE</text>
+</svg>

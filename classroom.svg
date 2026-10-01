@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wallGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+    <linearGradient id="boardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="340" fill="url(#wallGrad)"/>
+  <rect y="340" width="800" height="160" fill="url(#floorGrad)"/>
+  
+  <!-- Interactive Smart Board -->
+  <rect x="180" y="40" width="440" height="230" rx="10" fill="#334155" stroke="#f59e0b" stroke-width="4"/>
+  <rect x="195" y="55" width="410" height="200" rx="6" fill="url(#boardGrad)"/>
+  
+  <!-- Smart Board Content -->
+  <text x="400" y="95" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="20" text-anchor="middle">WISDOM &amp; KNOWLEDGE INTERACTIVE CLASSROOM</text>
+  <text x="400" y="125" fill="#fef08a" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="14" text-anchor="middle">Topic: Mathematics &amp; Solar System Explorations</text>
+  
+  <!-- Interactive Charts on Board -->
+  <circle cx="300" cy="180" r="30" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="380" cy="180" r="20" fill="#38bdf8" opacity="0.8"/>
+  <circle cx="440" cy="180" r="25" fill="#10b981" opacity="0.8"/>
+  <circle cx="500" cy="180" r="18" fill="#f43f5e" opacity="0.8"/>
+  <line x1="240" y1="180" x2="550" y2="180" stroke="#94a3b8" stroke-dasharray="4,4"/>
+  
+  <!-- Teacher's Podium / Desks -->
+  <rect x="60" y="320" width="160" height="110" rx="6" fill="#1e3a5f" stroke="#0f2b48" stroke-width="2"/>
+  <rect x="80" y="300" width="60" height="35" rx="3" fill="#cbd5e1"/>
+  
+  <!-- Student Desks -->
+  <g fill="#1e40af" rx="4">
+    <rect x="250" y="340" width="130" height="70" rx="4" fill="#0f2b48"/>
+    <rect x="240" y="330" width="150" height="15" rx="3" fill="#f59e0b"/>
+    <circle cx="315" cy="430" r="22" fill="#2563eb"/>
+    
+    <rect x="440" y="340" width="130" height="70" rx="4" fill="#0f2b48"/>
+    <rect x="430" y="330" width="150" height="15" rx="3" fill="#f59e0b"/>
+    <circle cx="505" cy="430" r="22" fill="#2563eb"/>
+    
+    <rect x="630" y="340" width="130" height="70" rx="4" fill="#0f2b48"/>
+    <rect x="620" y="330" width="150" height="15" rx="3" fill="#f59e0b"/>
+  </g>
+  
+  <!-- Air Conditioner & Clock -->
+  <rect x="50" y="30" width="100" height="35" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="60" y1="55" x2="140" y2="55" stroke="#38bdf8" stroke-width="2"/>
+  
+  <circle cx="700" cy="60" r="25" fill="#ffffff" stroke="#0a192f" stroke-width="3"/>
+  <line x1="700" y1="60" x2="700" y2="45" stroke="#0a192f" stroke-width="2"/>
+  <line x1="700" y1="60" x2="712" y2="60" stroke="#0a192f" stroke-width="2"/>
+</svg>

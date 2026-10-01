@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="kitWall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <linearGradient id="steelGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="50%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <linearGradient id="tileFloor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="320" fill="url(#kitWall)"/>
+  <!-- Wall Tiles Pattern -->
+  <g stroke="#e2e8f0" stroke-width="1.5" opacity="0.6">
+    <line x1="0" y1="60" x2="800" y2="60"/>
+    <line x1="0" y1="120" x2="800" y2="120"/>
+    <line x1="0" y1="180" x2="800" y2="180"/>
+    <line x1="0" y1="240" x2="800" y2="240"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+  </g>
+  <rect y="320" width="800" height="180" fill="url(#tileFloor)"/>
+  
+  <!-- Modern Exhaust Hoods -->
+  <polygon points="120,40 280,40 320,120 80,120" fill="url(#steelGrad)"/>
+  <polygon points="480,40 640,40 680,120 440,120" fill="url(#steelGrad)"/>
+  
+  <!-- Commercial Stainless Steel Cookers -->
+  <rect x="90" y="180" width="220" height="180" rx="6" fill="url(#steelGrad)" stroke="#475569" stroke-width="2"/>
+  <rect x="450" y="180" width="220" height="180" rx="6" fill="url(#steelGrad)" stroke="#475569" stroke-width="2"/>
+  
+  <!-- Stockpots & Cooking Cauldrons -->
+  <ellipse cx="160" cy="170" rx="35" ry="12" fill="#cbd5e1" stroke="#334155" stroke-width="3"/>
+  <rect x="125" y="170" width="70" height="40" rx="4" fill="#94a3b8" stroke="#334155" stroke-width="2"/>
+  <ellipse cx="160" cy="210" rx="35" ry="10" fill="#64748b"/>
+  
+  <ellipse cx="240" cy="165" rx="30" ry="10" fill="#cbd5e1" stroke="#334155" stroke-width="3"/>
+  <rect x="210" y="165" width="60" height="35" rx="4" fill="#94a3b8" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Stainless Prep Island Table -->
+  <rect x="260" y="270" width="280" height="150" rx="8" fill="url(#steelGrad)" stroke="#334155" stroke-width="3"/>
+  <rect x="250" y="260" width="300" height="18" rx="4" fill="#f8fafc" stroke="#475569" stroke-width="2"/>
+  
+  <!-- Fresh Fruits & Vegetables Basket -->
+  <ellipse cx="330" cy="250" rx="35" ry="15" fill="#f59e0b"/>
+  <circle cx="320" cy="235" r="14" fill="#ef4444"/>
+  <circle cx="340" cy="235" r="14" fill="#22c55e"/>
+  <circle cx="330" cy="225" r="12" fill="#f97316"/>
+  
+  <!-- Clean Food Serving Warmers / Trays -->
+  <rect x="400" y="240" width="120" height="20" rx="3" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+  
+  <!-- Hygiene & Safety Badge -->
+  <rect x="280" y="30" width="240" height="50" rx="25" fill="#059669" stroke="#ffffff" stroke-width="2"/>
+  <text x="400" y="60" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="14" text-anchor="middle">100% HYGIENIC KITCHEN</text>
+</svg>

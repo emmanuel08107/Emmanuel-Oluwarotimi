@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <circle cx="100" cy="100" r="100" fill="#581c87"/>
+  <!-- Head & Neck -->
+  <rect x="88" y="110" width="24" height="40" fill="#603813" rx="4"/>
+  <ellipse cx="100" cy="85" rx="35" ry="42" fill="#78350f"/>
+  <!-- Hair & Clean Beard -->
+  <path d="M65 75 C65 48 80 40 100 40 C120 40 135 48 135 75 Z" fill="#1c1917"/>
+  <path d="M80 98 Q100 125 120 98" fill="#1c1917"/>
+  <!-- Smile -->
+  <path d="M88 104 Q100 110 112 104" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Modern Smart Casual Attire -->
+  <path d="M40 200 C45 150 70 140 100 140 C130 140 155 150 160 200 Z" fill="#6b21a8"/>
+  <polygon points="100,140 92,160 108,160" fill="#ffffff"/>
+</svg>

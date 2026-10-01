@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="libBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="340" fill="#f8fafc"/>
+  <rect y="340" width="800" height="160" fill="#e2e8f0"/>
+  
+  <!-- Bookshelves in Background -->
+  <g fill="url(#libBg)" stroke="#292524" stroke-width="2">
+    <rect x="60" y="80" width="180" height="260" rx="4"/>
+    <rect x="310" y="80" width="180" height="260" rx="4"/>
+    <rect x="560" y="80" width="180" height="260" rx="4"/>
+  </g>
+  
+  <!-- Books on Shelves (Colors) -->
+  <g rx="2">
+    <!-- Shelf 1 Books -->
+    <rect x="75" y="110" width="15" height="50" fill="#dc2626"/>
+    <rect x="92" y="105" width="18" height="55" fill="#2563eb"/>
+    <rect x="112" y="115" width="14" height="45" fill="#16a34a"/>
+    <rect x="128" y="100" width="20" height="60" fill="#f59e0b"/>
+    <rect x="150" y="110" width="16" height="50" fill="#9333ea"/>
+    <rect x="168" y="108" width="18" height="52" fill="#0284c7"/>
+    <rect x="188" y="112" width="14" height="48" fill="#e11d48"/>
+    
+    <rect x="75" y="190" width="22" height="55" fill="#f59e0b"/>
+    <rect x="100" y="185" width="16" height="60" fill="#16a34a"/>
+    <rect x="118" y="195" width="18" height="50" fill="#2563eb"/>
+    <rect x="138" y="188" width="14" height="57" fill="#dc2626"/>
+    
+    <!-- Shelf 2 Books -->
+    <rect x="325" y="110" width="18" height="50" fill="#0284c7"/>
+    <rect x="345" y="105" width="16" height="55" fill="#16a34a"/>
+    <rect x="363" y="100" width="22" height="60" fill="#f59e0b"/>
+    <rect x="387" y="115" width="14" height="45" fill="#9333ea"/>
+    <rect x="403" y="108" width="18" height="52" fill="#dc2626"/>
+    
+    <!-- Shelf 3 Books -->
+    <rect x="575" y="110" width="16" height="50" fill="#16a34a"/>
+    <rect x="593" y="105" width="22" height="55" fill="#f59e0b"/>
+    <rect x="617" y="100" width="18" height="60" fill="#2563eb"/>
+    <rect x="637" y="115" width="14" height="45" fill="#dc2626"/>
+    <rect x="653" y="108" width="20" height="52" fill="#0284c7"/>
+  </g>
+  
+  <!-- Central Study Reading Table -->
+  <rect x="200" y="320" width="400" height="110" rx="8" fill="#b45309" stroke="#78350f" stroke-width="3"/>
+  <rect x="180" y="310" width="440" height="18" rx="4" fill="#d97706"/>
+  
+  <!-- Open Books & Study Lamp on Table -->
+  <!-- Open Book -->
+  <polygon points="360,305 400,295 440,305 400,312" fill="#ffffff" stroke="#0a192f" stroke-width="2"/>
+  <line x1="400" y1="295" x2="400" y2="312" stroke="#0a192f" stroke-width="2"/>
+  
+  <!-- Study Lamp -->
+  <path d="M260 310 L275 250 L250 240" fill="none" stroke="#0a192f" stroke-width="4"/>
+  <polygon points="235,245 260,230 250,260" fill="#f59e0b"/>
+  
+  <!-- Chairs -->
+  <rect x="140" y="340" width="40" height="70" rx="4" fill="#0f2b48"/>
+  <rect x="620" y="340" width="40" height="70" rx="4" fill="#0f2b48"/>
+  
+  <!-- Banner -->
+  <rect x="230" y="25" width="340" height="45" rx="22" fill="#78350f" stroke="#fef08a" stroke-width="2"/>
+  <text x="400" y="53" fill="#fef08a" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="14" text-anchor="middle">LIBRARY &amp; E-RESOURCE CITADEL</text>
+</svg>

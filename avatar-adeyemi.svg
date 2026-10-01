@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <circle cx="100" cy="100" r="100" fill="#0f2b48"/>
+  <!-- Head & Neck -->
+  <rect x="88" y="110" width="24" height="40" fill="#603813" rx="4"/>
+  <ellipse cx="100" cy="85" rx="35" ry="42" fill="#78350f"/>
+  <!-- Short Trimmed Hair -->
+  <path d="M65 75 C65 48 80 40 100 40 C120 40 135 48 135 75 C130 55 115 48 100 48 C85 48 70 55 65 75 Z" fill="#1c1917"/>
+  <!-- Glasses -->
+  <rect x="72" y="78" width="22" height="15" rx="3" fill="none" stroke="#0ea5e9" stroke-width="2.5"/>
+  <rect x="106" y="78" width="22" height="15" rx="3" fill="none" stroke="#0ea5e9" stroke-width="2.5"/>
+  <line x1="94" y1="85" x2="106" y2="85" stroke="#0ea5e9" stroke-width="2.5"/>
+  <!-- Smile -->
+  <path d="M88 108 Q100 116 112 108" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Suit & Tie -->
+  <path d="M40 200 C45 150 70 140 100 140 C130 140 155 150 160 200 Z" fill="#1e3a5f"/>
+  <polygon points="100,140 90,165 110,165" fill="#ffffff"/>
+  <polygon points="100,148 95,200 105,200" fill="#f59e0b"/>
+</svg>

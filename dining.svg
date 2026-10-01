@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="dinBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#ffedd5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="340" fill="url(#dinBg)"/>
+  <rect y="340" width="800" height="160" fill="#fed7aa"/>
+  
+  <!-- Windows with Sunlight -->
+  <rect x="80" y="60" width="160" height="140" rx="8" fill="#bae6fd" stroke="#ffffff" stroke-width="4"/>
+  <line x1="160" y1="60" x2="160" y2="200" stroke="#ffffff" stroke-width="3"/>
+  <line x1="80" y1="130" x2="240" y2="130" stroke="#ffffff" stroke-width="3"/>
+  
+  <rect x="560" y="60" width="160" height="140" rx="8" fill="#bae6fd" stroke="#ffffff" stroke-width="4"/>
+  <line x1="640" y1="60" x2="640" y2="200" stroke="#ffffff" stroke-width="3"/>
+  <line x1="560" y1="130" x2="720" y2="130" stroke="#ffffff" stroke-width="3"/>
+  
+  <!-- Dining Hall Tables and Benches -->
+  <!-- Left Table -->
+  <rect x="80" y="310" width="280" height="120" rx="8" fill="#ea580c"/>
+  <rect x="70" y="300" width="300" height="18" rx="4" fill="#fb923c"/>
+  <!-- Food Trays -->
+  <rect x="110" y="285" width="50" height="12" rx="2" fill="#e2e8f0"/>
+  <circle cx="125" cy="291" r="4" fill="#f59e0b"/>
+  <circle cx="145" cy="291" r="4" fill="#16a34a"/>
+  
+  <rect x="220" y="285" width="50" height="12" rx="2" fill="#e2e8f0"/>
+  <circle cx="235" cy="291" r="4" fill="#f59e0b"/>
+  <circle cx="255" cy="291" r="4" fill="#16a34a"/>
+  
+  <!-- Right Table -->
+  <rect x="440" y="310" width="280" height="120" rx="8" fill="#ea580c"/>
+  <rect x="430" y="300" width="300" height="18" rx="4" fill="#fb923c"/>
+  <!-- Food Trays -->
+  <rect x="480" y="285" width="50" height="12" rx="2" fill="#e2e8f0"/>
+  <circle cx="495" cy="291" r="4" fill="#f59e0b"/>
+  <circle cx="515" cy="291" r="4" fill="#16a34a"/>
+  
+  <rect x="590" y="285" width="50" height="12" rx="2" fill="#e2e8f0"/>
+  <circle cx="605" cy="291" r="4" fill="#f59e0b"/>
+  <circle cx="625" cy="291" r="4" fill="#16a34a"/>
+  
+  <!-- Nutrition Banner -->
+  <rect x="240" y="25" width="320" height="45" rx="22" fill="#c2410c" stroke="#ffffff" stroke-width="2"/>
+  <text x="400" y="53" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="14" text-anchor="middle">MODERN DINING CAFETERIA</text>
+</svg>

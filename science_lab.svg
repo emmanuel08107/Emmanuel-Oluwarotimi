@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="labBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#labBg)"/>
+  
+  <!-- Grid Lines -->
+  <g stroke="#334155" stroke-width="1" opacity="0.4">
+    <line x1="100" y1="0" x2="100" y2="500"/>
+    <line x1="300" y1="0" x2="300" y2="500"/>
+    <line x1="500" y1="0" x2="500" y2="500"/>
+    <line x1="700" y1="0" x2="700" y2="500"/>
+  </g>
+  
+  <!-- Lab Bench Counter -->
+  <rect x="50" y="300" width="700" height="170" rx="8" fill="#1e293b" stroke="#0ea5e9" stroke-width="2"/>
+  <rect x="40" y="285" width="720" height="20" rx="4" fill="#38bdf8"/>
+  
+  <!-- Microscope -->
+  <path d="M160 285 L160 230 L180 230 L180 200 L150 170 L130 190 L150 210" fill="none" stroke="#f1f5f9" stroke-width="10" stroke-linecap="round"/>
+  <rect x="130" y="270" width="60" height="15" fill="#64748b" rx="2"/>
+  <circle cx="160" cy="245" r="14" fill="#38bdf8" opacity="0.8"/>
+  
+  <!-- Chemistry Flasks with Colorful Glowing Liquids -->
+  <!-- Erlenmeyer Flask 1 (Emerald) -->
+  <polygon points="300,285 360,285 340,210 340,170 320,170 320,210" fill="#059669" stroke="#ffffff" stroke-width="3"/>
+  <polygon points="305,280 355,280 340,230 320,230" fill="#10b981"/>
+  <!-- Bubbles -->
+  <circle cx="330" cy="250" r="4" fill="#ffffff" opacity="0.8"/>
+  <circle cx="335" cy="235" r="3" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Round Bottom Flask (Purple) -->
+  <circle cx="450" cy="240" r="35" fill="#7c3aed" stroke="#ffffff" stroke-width="3"/>
+  <rect x="442" y="170" width="16" height="40" fill="#94a3b8" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="450" cy="240" r="28" fill="#a855f7"/>
+  
+  <!-- Beakers (Gold) -->
+  <rect x="550" y="210" width="55" height="75" rx="3" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <rect x="553" y="235" width="49" height="47" fill="#f59e0b" opacity="0.85"/>
+  <line x1="560" y1="245" x2="575" y2="245" stroke="#ffffff" stroke-width="2"/>
+  <line x1="560" y1="260" x2="575" y2="260" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- Computer Display / Digital Measurement -->
+  <rect x="630" y="200" width="90" height="70" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+  <text x="675" y="230" fill="#38bdf8" font-family="'Courier New', monospace" font-size="12" text-anchor="middle" font-weight="bold">PH: 7.42</text>
+  <text x="675" y="250" fill="#10b981" font-family="'Courier New', monospace" font-size="11" text-anchor="middle">TEMP: 24°C</text>
+  
+  <!-- Title Badge -->
+  <rect x="250" y="30" width="300" height="45" rx="22" fill="#0284c7" stroke="#ffffff" stroke-width="2"/>
+  <text x="400" y="58" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="14" text-anchor="middle">SCIENCE &amp; STEM LABORATORY</text>
+</svg>
